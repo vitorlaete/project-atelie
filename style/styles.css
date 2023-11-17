@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+:root{
+    --colorPalette01: darkviolet; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 40px;
+    color: var(--colorPalette01);
+}
+
+header nav a{
+    padding-left: 20px;
+    text-decoration: none;
+}
