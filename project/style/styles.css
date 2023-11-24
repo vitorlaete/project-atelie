@@ -9,17 +9,27 @@
     padding: 0;
 }
 
-header{
+header#headerTop{
     text-align: center;
     padding: 20px;
+    box-shadow: 1px 1px 6px lightgrey;
 }
 
-header h1{
+header#headerTop h1#nameAtelie{
     margin-bottom: 40px;
     color: var(--colorPalette01);
 }
 
-header nav a{
+header#headerTop p{
+    display: inline;
+}
+
+header#headerTop nav#navOfTop a{
     padding-left: 20px;
     text-decoration: none;
+    color: #000000;
+}
+
+header#headerTop nav#navOfTop a:hover{
+    color: rgb(95, 95, 95);
 }
