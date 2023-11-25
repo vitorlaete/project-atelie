@@ -13,6 +13,8 @@ header#headerTop{
     text-align: center;
     padding: 20px;
     box-shadow: 1px 1px 6px lightgrey;
+    position: relative;
+    height: 150px;
 }
 
 header#headerTop h1#nameAtelie{
@@ -20,7 +22,7 @@ header#headerTop h1#nameAtelie{
     color: var(--colorPalette01);
 }
 
-header#headerTop p{
+header#headerTop nav#navOfTop p{
     display: inline;
 }
 
@@ -33,3 +35,17 @@ header#headerTop nav#navOfTop a{
 header#headerTop nav#navOfTop a:hover{
     color: rgb(95, 95, 95);
 }
+
+header#headerTop figure#logoImage img#logoLocation{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    box-shadow: 0px 0px 4px #000000;
+}
+
+header#headerTop figure#logoImage figcaption p {
+    position: absolute;
+    padding: 5px;
+    top: 140px;
+}
+
